@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUXÉ Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="top-bar">
+    <span>Free shipping on orders over</span>
+    <div class="social-icons">
+  <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+  <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+  <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+</div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">MY SECRET DRAWER</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Unveil Your Elegance</h2>
+      <p>Discover the new season with bold and luxurious fashion pieces.</p>
+      <a href="#collections" class="btn-primary">Explore Now</a>
+    </div>
+  </section>
+
+  <section id="collections" class="collections">
+  <h2>Our Collections</h2>
+  <div class="collection-grid">
+    <div class="collection-item">
+      <div class="collection-img-wrap">
+        <img src="images/dom.jpg" alt="Fall Collection">
+        <span class="collection-label">Fall 2025</span>
+      </div>
+    </div>
+    <div class="collection-item">
+      <div class="collection-img-wrap">
+        <img src="images/spring.jpg" alt="Spring Collection">
+        <span class="collection-label">Spring Bloom</span>
+      </div>
+    </div>
+    <div class="collection-item">
+      <div class="collection-img-wrap">
+        <img src="images/ali.jpg" alt="Evening Wear">
+        <span class="collection-label">Evening Luxe</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About MY SECRET DRAWER</h2>
+      <p>LUXÉ is a high-end fashion brand born from the desire to merge classic elegance with contemporary expression. Our designers blend timeless styles with modern touches, ensuring each piece is as unique as the wearer.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Fashion Moments</h2>
+    <div class="gallery-grid">
+      <img src="images/accessories.jpg" alt="Look 1">
+      <img src="images/look2.jpg" alt="Look 2">
+      <img src="images/look3.jpg" alt="Look 3">
+      <img src="images/look4.jpg" alt="Look 4">
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <p>"Absolutely stunning designs! I feel so confident in my LUXÉ dress."</p>
+        <span>- Sophia R.</span>
+      </div>
+      <div class="testimonial">
+        <p>"The quality and attention to detail are unmatched. Highly recommend!"</p>
+        <span>- Daniel K.</span>
+      </div>
+      <div class="testimonial">
+        <p>"Fast shipping and beautiful packaging. Will shop again!"</p>
+        <span>- Maya T.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <h2>Stay in the Loop</h2>
+    <p>Subscribe to our newsletter for exclusive offers and updates.</p>
+    <form>
+      <input type="email" placeholder="Your Email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="/contact" method="POST">
+      <input name="name" type="text" placeholder="Your Name" required />
+      <input name="email" type="email" placeholder="Your Email" required />
+      <textarea name="msg" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 MY SECRET DRAWER Fashion. All rights reserved.</p>
+  </footer>
+</body>
+</html>
